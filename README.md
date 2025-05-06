@@ -39,6 +39,7 @@ pip install -r requirements.txt
 4. Создайте файл `.env` в корневой директории проекта со следующими переменными:
 ```env
 DATABASE_URL=postgresql://user:password@localhost:5432/secunda
+API_KEY=mysecretkey123
 ```
 
 5. Запустите PostgreSQL (можно использовать Docker):
